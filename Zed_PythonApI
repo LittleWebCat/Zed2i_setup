@@ -1,0 +1,33 @@
+1. Download the ZED SDK based on your system:
+
+	https://www.stereolabs.com/developers/release#82af3640d775
+
+
+2.	https://www.stereolabs.com/docs/installation/linux 
+	
+	$ cd path/to/download/folder 
+	$ sudo apt install zstd
+	$ chmod +x ZED_SDK_Ubuntu22_cuda11.8_v4.0.0.zstd.run
+	$ ./ZED_SDK_Ubuntu22_cuda11.8_v4.0.0.zstd.run
+
+
+
+3. Check the CUDA and CUDA tookit:
+
+	https://www.stereolabs.com/docs/installation/linux
+	
+	
+4. Check :  
+
+	ZED SDK (see Installation section)
+    	Python 3.6+ (x64)
+    	Cython 0.26+
+    	Numpy 1.13+
+    	OpenCV Python (optional)
+    	PyOpenGL (optional)
+    	
+    	
+    	$ python -m pip install cython numpy opencv-python pyopengl
+    	
+    	$ cd "/usr/local/zed/"
+	$ python3 get_python_api.py
